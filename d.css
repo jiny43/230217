@@ -1,0 +1,165 @@
+
+  @media (min-width:1024px) and (max-width: 1728px) {
+  .container {
+    Width: 1728px;
+    Height: 1357px;
+  }
+ /* 가로길이기 1024~1728이면 데스크탑 버전의 디스플레이를 보여줌 */
+ 
+  .header {
+    width: 100%;
+    height: 300px;
+
+  }
+
+  .header>div:nth-child(1) {
+    width: 100%;
+    height: 100px;
+    Font-family: Inter;
+    Font-size: 12px;
+    font-weight: 900;
+    Line-height: 14.52px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    bottom: 19px;
+  }
+
+
+  .header>div:nth-child(2) {
+    width: 100%;
+    height: 200px;
+    background-color: #F0F0F0;
+  }
+
+  .header>div>div {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    Font-family: Inter;
+    Font-style: Regular;
+    Font-size: 12px;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 875px;
+    display: flex;
+    flex-direction: row;
+
+    /* 데스크탑 버전은 wrap 을 따로 만든 html이 있었는데 삭제해버려서 적용이 안돼서 옆으로 붙어야 하는데 밑으로 내려갔다.. 
+    수정해야함*/
+
+  }
+
+  .main {
+    width: 429px;
+    height: 875px;
+  }
+
+  .main2 {
+    width: 1299px;
+    height: 875px;
+    background-color: #2196F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: light;
+    
+
+  }
+
+  .main>div {
+    Font-family: Inter;
+    Font-size: 96px;
+    font-weight: 700;
+    position: relative;
+    left: 60px;
+  }
+
+  .main>div:nth-child(1) {
+    color: #000000;
+  }
+
+  .main>div:nth-child(2) {
+    color: #2196F3;
+    position: relative;
+    bottom: 50px;
+
+  }
+
+  .main>div:nth-child(3) {
+    color: #2196F3;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .main>div:nth-child(4) {
+    color: #2196F3;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .main>div:nth-child(5) {
+    color: #000000;
+    position: relative;
+    bottom: 200px;
+  }
+  /* div 사이에 여백의 크기가 같아지게 하기 위해서 포지션 바텀 값을 넣어주었다. */
+  .main>span {
+    Font-family: Inter;
+    Font-style: Regular;
+    Font-size: 12px;
+    font-weight: 400;
+    color: #2196F3;
+    position: absolute;
+    left: 60px;
+    top: 862px;
+  }
+
+  .main2>div {
+    color: #FFFFFF;
+    font-family: 'Karantina', cursive;
+    font-Weight: 400;
+    font-Size: 128px;
+    Line-height: 129.54px;
+  }
+
+  .main2>div:nth-child(3) {
+    border-bottom: 4px solid white;
+  }
+
+  .main2>div:nth-child(1) {
+    position: absolute;
+    right: 250px;
+    top: 714px;
+  }
+
+  .main2>div:nth-child(2) {
+    position: absolute;
+    right: 250px;
+    top: 824px;
+  }
+
+  .main2>div:nth-child(3) {
+    position: absolute;
+    right: 250px;
+    top: 934px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+  }
+
+  .footer>div {
+    font-family: "inter";
+    font-Weight: 400;
+    font-Size: 8px;
+    color: #FFFFFF;
+    position: relative;
+    left: 66px;
+    top: 85px;
+
+  }
+  }

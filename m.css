@@ -1,0 +1,160 @@
+
+      @media screen and (max-width :430px) {
+        .container {
+          Width: 430px;
+          Height: 1864px;
+          display: flex;
+          flex-direction: column;
+        }
+          /* 넓이 430까지 모바일 화면을 보여줌 */
+        body>div>div:nth-child(1) {
+          width: 430px;
+          height: 110px;
+          background-color: #2196F3;
+          Font-family: Inter;
+          Font-size: 12px;
+          color: #FFFFFF;}
+        /* } 바디 안에 컨테이너 안에 헤더 */
+
+        body>div>div:nth-child(1)>div:nth-child(1) {
+          display: inline-block;
+          position: relative;
+          top: 68px;
+          left: 98px;
+        }
+
+        body>div>div:nth-child(2) {
+          width: 430px;
+          height: 732px;
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+        }
+
+        body>div>div:nth-child(2)>div {
+          Font-family: Inter;
+          font-weight: 700;
+          Line-height: 96px;
+          Line-height: 100%;
+          Font-size: 96px;
+          color: #333333;
+          Left: 23px; }
+        /*  MAIN 안에 don't , past  */
+
+        body>div>div:nth-child(2)>div:nth-child(1) {
+          position: relative;
+          top: 96px
+        } 
+        /*겹쳐지기 위해서  main 안에 don't 포지션값을 줌 */
+        body>div>div:nth-child(2)>div:nth-child(2) {
+          color: #2196F3;
+          position: relative;
+          top: 48px;
+        }
+        /* 겹쳐지기 위해서 main 안에 DWELL 포지션값을 줌 */
+        
+        body>div>div:nth-child(2)>div:nth-child(3) {
+          color: #2196F3;
+          position: relative;
+        }
+        /* 겹쳐지기 위해서 main 안에 ON 포지션값을 줌 */
+
+        body>div>div:nth-child(2)>div:nth-child(4) {
+          color: #2196F3;
+          position: relative;
+          top: -48px;
+        }
+        /* 겹쳐지기 위해서 main 안에 THE 포지션값을 줌 */
+
+        body>div>div:nth-child(2)>div:nth-child(5) {
+          position: relative;
+          top: -96px;
+        }
+        /*  겹쳐지기 위해서 main 안에 PAST 포지션값을 줌 */ 
+        body>div>div:nth-child(2)>span {
+          font-family: inter;
+          Font-style: Regular;
+          Font-size: 12px;
+          color: #2196F3;
+          Width: 285px;
+          height: 30px;
+          position: relative;
+          Left: 73px;
+        }
+        /* SPAN 안에 밑으로 뒤집은 > 를 만들지 못해서 아쉽다*/
+
+        .main2 {
+          font-family: 'Karantina', cursive;
+          font-weight: 700;
+          Font-style: Regular;
+          Font-size: 70px;
+          Line-height: 130px;
+          Line-height: 100%;
+          color: #F0F0F0;
+          width: 430px;
+          height: 732px;
+          background-color: #2196F3;
+        }
+        /* /파란색 영역을 MAIN2 라고 정했다. 피그마에 써있는 글씨체가 적용이 안돼서 구글폰트에 검색해서 가져왔다. */
+        /* 폰트 사이즈도 안맞아서 임의로 정했다. */
+        div {
+          display: inline-block;
+        }
+        /* 피그마에서 텍스트를 클릭하면 텍스트 크기만큼 블럭이 있어서 인라인 블럭으로 했는데 적용이 된 부분과 안 된 부분이 있는데 이유를 모르겠다. */
+        .main2>div:nth-child(1) {
+          position: relative;
+          top: 231px;
+          left: 19px;
+        }
+
+        .main2>div:nth-child(2) {
+          position: relative;
+          top: 231px;
+          left: 19px;
+        }
+
+        .main2>div:nth-child(3) {
+          position: relative;
+          top: 231px;
+          left: 19px;
+        }
+
+        .main2>div:nth-child(4) {
+          position: absolute;
+          top: 1150px;
+          left: 337px;
+          width: 35px;
+          height: 61px;
+        }
+        /* >의 위치를 맞추기 어려워서 DIGITAL 옆으로 맞추었다. */
+        .footer {
+          Font-family: Inter;
+          Font-style: Regular;
+          Font-size: 8px;
+          Line-height: 10px;
+          Line-height: 100%;
+          color: #F0F0F0;
+          display: flex;
+          flex-direction: column;
+          width: 430px;
+          height: 200px;
+          background-color: #333333;
+        }
+
+        hr {
+          Width: 345px;
+          height: 2px;
+          position: relative;
+          top: 82px;
+          background-color: white;
+        }
+        /* hr 로 선을 만들었다. */
+        .footer>div {
+          position: relative;
+          top: 82px;
+          left: 43px;
+        }
+        /* footer안에 div 위치를 설정해줬다 */
+      }

@@ -1,0 +1,145 @@
+@media (min-width:430px) and (max-width: 1024px) {
+
+  .container {
+    Width: 1024px;
+    Height: 2732px;
+
+  }
+
+  .header {
+    width: 100%;
+    height: 300px;
+
+  }
+
+  .header>div:nth-child(1) {
+    width: 1024px;
+    height: 100px;
+    Font-family: Inter;
+    Font-size: 12px;
+    font-weight: 900;
+    Line-height: 14.52px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ /* 헤더 안에 첫번째 div 를 FLEX align,justify 가운데로 맞춰줬는데 좀 더 아래로 내려와야 할 것 같다. */
+
+  .header>div:nth-child(2) {
+    width: 100%;
+    height: 200px;
+    background-color: #F0F0F0;
+  }
+ /* 헤더 안에 두번째 디브인데 , 원래는 안에 텍스트 디브가6개 들어가야하는데 인덱스.html를 하나로 정리하다가 지워버렸다. 시간이 촉박해서 다시 못만들었다. 모바일에는 display none으로 해놓고 데스크탑, 테블릿에는 보여지게 만들면 될 것 같다. */
+  .header>div>div {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    color: #000000;
+    Font-family: Inter;
+    Font-style: Regular;
+    Font-size: 12px;
+  }
+ /* 날려버린 html의 헤더 두번째 디브 스타일 값 */
+  .main {
+    width: 1024px;
+    height: 864px;
+  }
+
+  .main>div {
+    Font-family: Inter;
+    Font-size: 96px;
+    font-weight: 700;
+    position: relative;
+    left: 60px;
+  }
+ /* 메인 디브 전체를 왼쪽에서 60px 만큼 옮겨줬다. */
+  .main>div:nth-child(1) {
+    color: #000000;
+  }
+ /* 색상 값을 주고 글자 사이에 여백이 없게 포지션 값을 주려고했는데 못했다. */
+  .main>div:nth-child(2) {
+    color: #2196F3;
+
+  }
+
+  .main>div:nth-child(3) {
+    color: #2196F3;
+  }
+
+  .main>div:nth-child(4) {
+    color: #2196F3;
+  }
+
+  .main>div:nth-child(5) {
+    color: #000000;
+  }
+ /* main 의 div 위치를 다시 해야 할 듯 */
+  .main>span {
+    Font-family: Inter;
+    Font-style: Regular;
+    Font-size: 12px;
+    font-weight: 400;
+    color: #2196F3;
+    position: relative;
+    left: 60px;
+  }
+
+  .main2 {
+    width: 1024px;
+    height: 1368px;
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  /* main2 안에 div를 가운데로 만들었다 */
+  .main2>div {
+    color: #FFFFFF;
+    font-family: 'Karantina';
+    font-Weight: 400;
+    font-Size: 128px;
+    Line-height: 129.54px;
+    position: relative;
+    left: 60px;
+  }
+ /* 글씨체가 적용이 안됨 . 전체 왼쪽에서 60 만큼 옮겨줬다.*/
+  .main2>div:nth-child(3) {
+    border-bottom: 4px solid white;
+  }
+ /* 흰 선을 training 의 border-bottom 으로 만들었다. */
+  .main2>div:nth-child(4) {
+    position: relative;
+    top:-280px;
+    left: 60%;
+  }
+ /* > 위치를 정해줬다. */
+  .footer {
+    width: 1024px;
+    height: 200px;
+    background-color: #333333;
+  }
+
+  hr {
+    Width: 890px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 2600px;
+    left: 66px;
+  }
+  .footer>div {
+    font-family: "inter";
+    font-Weight: 400;
+    font-Size: 8px;
+    color: #FFFFFF;
+    position: relative;
+    left: 66px;
+    top: 85px;
+  }
+
+}
